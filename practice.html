@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: greenyellow;
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+        }
+        nav {
+            background: greenyellow;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .container1 {
+            display: flex; /* Enables Flexbox */
+            gap: 500px; /* Adds space between containers */
+            max-width: 10000px;
+            background-color: whitesmoke;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        /* .container1 {
+            margin: 10px;
+            max-width: 500px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }*/ 
+        .box {
+            width: 500px;
+            height: 150px;
+            background-color: white;
+            text-align: center;
+            line-height: 150px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        .box1 {
+            width: 460px;
+            height: 110px;
+            background-color: white;
+            padding: 20px;
+            text-align: center;
+            line-height: 10px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <header>Welcome to My Web Page</header>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container1">
+        <div class="box">About CSS
+            <div class="box1">Responsive Design</div>
+        </div>
+        <div class="box"> Box Model</div>
+    </div>
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Side by Side Containers</title>
+    <style>
+        .container {
+            display: flex; /* Enables Flexbox */
+            gap: 20px; /* Adds space between containers */
+            justify-content: center; /* Centers containers horizontally */
+        }
+        .box {
+            width: 200px;
+            height: 150px;
+            background-color: lightblue;
+            text-align: center;
+            line-height: 150px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+</body>
+</html> -->

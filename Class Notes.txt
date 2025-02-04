@@ -1,0 +1,18 @@
+Name in Html Document We can set it with some other names also like:- Description,Author,Keywords
+
+
+Types Of Selectors
+1:- Type Selector
+2:- Attribute Selector
+3:- Id Selector
+4:- Class Selector
+5:- Universal Selector
+6:- Pseudo Selector
+7:- Combinator Selector             
+
+
+Parts Of CSS Box Model:-
+1:- Margin Box
+2:- Border Box
+3:- Padding Box
+4:- Content Box
